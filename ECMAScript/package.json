@@ -1,0 +1,11 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "practica de ecmascripl curso de ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MarkedOliv - Oliver Marquez <olivdev4@gmail.com>",
+  "license": "MIT"
+}
