@@ -11,5 +11,8 @@
     "nodejs"
   ],
   "author": "MarkedOliv - Oliver Marquez <olivdev4@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
