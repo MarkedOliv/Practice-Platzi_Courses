@@ -1,0 +1,15 @@
+{
+  "name": "asincronismo-javascript",
+  "version": "1.0.0",
+  "description": "Pruebas y entendimiento del asincronismo en JavaScript desde un curso de Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "MarkedOliv - Oliver Marquez <olivdev4@gmail.com>",
+  "license": "MIT"
+}
