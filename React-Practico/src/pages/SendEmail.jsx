@@ -9,7 +9,7 @@ const SendEmail = () => {
 				<h1 className="title">Email has been sent!</h1>
 				<p className="subtitle">Please check your inbox for instructions on how to reset the password</p>
 				<div className="email-image">
-					<img src="./icons/email.svg" alt="email" />
+					<img src="https://raw.githubusercontent.com/MarkedOliv/curso-frontend-developer-practico/a96241b67236dd97c9d506368951b61241e3261b/icons/email.svg" alt="email" />
 				</div>
 				<button className="primary-button login-button">Login</button>
 				<p className="resend">

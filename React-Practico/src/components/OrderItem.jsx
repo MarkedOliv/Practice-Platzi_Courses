@@ -9,7 +9,7 @@ const OrderItem = () => {
 			</figure>
 			<p>Bike</p>
 			<p>$30,00</p>
-			<img src="./icons/icon_close.png" alt="close" />
+			<img src="https://github.com/MarkedOliv/curso-frontend-developer-practico/blob/main/icons/icon_close.png?raw=true" alt="close" />
 		</div>
 	);
 }
