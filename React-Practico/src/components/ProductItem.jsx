@@ -3,10 +3,10 @@ import '../styles/ProductItem.scss';
 
 const ProductItem = () => {
 
-	const [cart, setCart] = useState('');
+	const [cart, setCart] = useState([]);
 
 	const handleCart = () => {
-		setCart('Hello World!');
+		setCart([]);
 	}
 	return (
 		<div className="ProductItem">
@@ -20,7 +20,6 @@ const ProductItem = () => {
 					<img src="https://raw.githubusercontent.com/MarkedOliv/curso-frontend-developer-practico/a96241b67236dd97c9d506368951b61241e3261b/icons/bt_add_to_cart.svg" alt="" />
 				</figure>
 			</div>
-				<h3>{cart}</h3>
 		</div>
 	);
 }
