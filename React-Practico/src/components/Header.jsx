@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import AppContext from '../context/AppContext';
 import '../styles/Header.scss';
 import Menu from '../components/Menu';
 
 const Header = () => {
     
     const [ toggle, setToggle ] = useState(false);
+    const { state } = useContext(AppContext);  
 
     const handleToggle = () => {
         setToggle(!toggle);
@@ -41,7 +43,7 @@ const Header = () => {
                 <li className="navbar-email" onClick={handleToggle}>platzi@example.com</li>
                 <li className="navbar-shopping-cart">
                     <img src="https://raw.githubusercontent.com/platzi/react-practico/da0897411c68f9293530944351d33c442b0cd75f/src/assets/icons/icon_shopping_cart.svg" alt="shopping cart" />
-                    <div>2</div>
+                    {state.cart.length > 0 ? <div>{state.cart.length}</div>: null}
                 </li>
             </ul>
         </div>
